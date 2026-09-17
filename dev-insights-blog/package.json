@@ -1,5 +1,5 @@
 {
-  "name": "dev-insights-bloggg",
+  "name": "dev-insights-blog",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "npm run build"
   },
   "dependencies": {
     "react": "^19.2.8",
