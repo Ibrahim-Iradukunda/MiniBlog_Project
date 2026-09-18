@@ -1,6 +1,6 @@
 import { Header } from './components/Header'
 import { PostList } from './components/PostList'
-import { withLogger } from './hoc/withLogger'
+import { withLogger } from './components/hoc/withLogger'
 import './App.css'
 
 const LoggedPostList = withLogger(PostList, 'PostList')

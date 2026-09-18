@@ -7,7 +7,7 @@ const samplePosts: PostType[] = [
     title: 'The small API habit that makes debugging faster',
     author: 'Maya Chen',
     excerpt: 'Before reaching for another tool, write down the request shape, the response you expected, and the first place reality diverged.',
-    date: new Date(Date.now() - 3_600_000).toISOString(),
+    date: '2026-09-18T12:00:00.000Z',
     category: 'Workflow',
   },
   {
