@@ -1,7 +1,0 @@
-:root { --paper: #f6f3ec; --ink: #1d2927; --muted: #67716e; --line: #d9ded8; --line-dark: #a8b3aa; --coral: #e65c4f; --mint: #dceee2; --yellow: #f1cf68; --body: 'Trebuchet MS', sans-serif; --heading: Georgia, serif; --mono: 'Courier New', monospace; color: var(--muted); background: var(--paper); font: 16px/1.45 var(--body); font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
-
-* { box-sizing: border-box; }
-html { min-width: 320px; }
-body { min-width: 320px; min-height: 100vh; margin: 0; background: radial-gradient(circle at 8% 8%, rgba(230,92,79,.08), transparent 25rem), var(--paper); }
-button, a { font: inherit; }
-::selection { color: var(--paper); background: var(--coral); }
